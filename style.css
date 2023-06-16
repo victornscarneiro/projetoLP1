@@ -45,6 +45,12 @@
 #tituloVideo{
     color: #247BA0;
     margin-top: 50px;
+    margin-left: -50px;
+    font-size: 25px;
+}
+#txtVideo{
+    font-size: 15px;
+    margin-left: -50px;
 }
 #carrossel{
     background-color: #247BA0;
@@ -53,7 +59,7 @@
 #tituloCarrossel{
     text-align: center;
     color: white;
-    font-size: 30px;
+    font-size: 25px;
     margin: 40px 303px 25px 303px;
 }
 #depoimentos{
@@ -68,18 +74,18 @@
     display: none;
 }
 .setas{
-    margin-top: 35%;
+    margin-top: 55px;
     cursor: pointer;
 }
 .setas:hover{
-    transform: scale(115%);
-    transition-duration: 0.25s;
+    transform: scale(118%);
+    transition-duration: 0.35s;
 }
 #formulario{
     text-align: center;
 }
 #tituloFormulario{
-    font-size: 30px;
+    font-size: 25px;
     margin: 40px;
 }
 input{
