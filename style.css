@@ -1,0 +1,113 @@
+*{
+    margin: 0px;   
+    font-family: "inter";
+}
+#logo{
+    margin-top: 52px;
+    margin-left: 56px;
+}
+#titulo-menuSuperior{
+    margin-left: 172px;
+    margin-top: 71px;
+}
+#sub-titulo-menuSuperior{
+    margin-left: 172px;
+    margin-top: 32px;
+    padding-bottom: 151px;
+}
+#menuSuperior{
+    background-image: url(imagens/fundoMenuSuperior.svg);
+    color: aliceblue;
+}
+#menuInformacional{
+    background-color: #EAECE5;
+    height: 170px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+.icone{
+    margin-right: 20px;
+    margin-left: 175px;    
+}
+.txtInformativo{
+    display: flex;
+    align-items: center;
+}
+#secaoVideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+#Video{
+    margin: 50px 25px 50px 172px;
+}
+#tituloVideo{
+    color: #247BA0;
+    margin-top: 50px;
+}
+#carrossel{
+    background-color: #247BA0;
+    padding: 40px;
+}
+#tituloCarrossel{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin: 40px 303px 25px 303px;
+}
+#depoimentos{
+    margin-top: 40px;
+    display: grid;
+    grid-auto-flow: column;
+}
+#setaE{
+    display: none;
+}
+#depoBru{
+    display: none;
+}
+.setas{
+    margin-top: 35%;
+    cursor: pointer;
+}
+.setas:hover{
+    transform: scale(115%);
+    transition-duration: 0.25s;
+}
+#formulario{
+    text-align: center;
+}
+#tituloFormulario{
+    font-size: 30px;
+    margin: 40px;
+}
+input{
+    width: 400px;
+    height: 35px;
+    margin: 20px;
+    padding-left: 10px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #EAECE5;
+}
+button{
+    width: 325px;
+    height: 35px;
+    margin: 20px;
+    margin-bottom: 40px;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    background-color: #247BA0;
+    font-weight: bolder;
+    font-size: 15px;
+    cursor: pointer;
+}
+button:hover{
+    transform:scale(105%);
+    transition-duration: 0.6s;
+    background-color: #247BA0;
+    color: white;
+    box-shadow: -2px 7.5px 5px #13415573;
+}
